@@ -1,0 +1,433 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "artItems",
+    "outputs": [
+      {
+        "name": "itemaddress",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "warehouse",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "state",
+        "type": "uint8",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getNumWareHouse",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "kill",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_no",
+        "type": "uint256"
+      }
+    ],
+    "name": "getWarehouseItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "numWarehouse",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      }
+    ],
+    "name": "digItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "warehouseAssets",
+    "outputs": [
+      {
+        "name": "wareAddress",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "numItem",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "wareHouseURL",
+        "type": "string",
+        "value": ""
+      },
+      {
+        "name": "toltalValue",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "numItemSoled",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "toltalSoledValue",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "failedTimes",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "lostValue",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "newWarehouse",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "appraiserAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x804ef3e0f9d3a90e72f8e5c959cec857effd3988"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "manageAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x2de547c2e7606091bf97a4eabaefd46071acefdf"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0xd58a39a5c7a7efbd1a522ea4276cbf67d031e5e5"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      }
+    ],
+    "name": "storeItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "isValidateAccount",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "value": false
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "artItemsAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x2ae08f6404005c1df67c18fff151c9bebeaacd9c"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "updateAddress",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      }
+    ],
+    "name": "newItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "transferOwnership",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      },
+      {
+        "name": "_warehouse",
+        "type": "address"
+      }
+    ],
+    "name": "checkMintItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "value": false
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "coinAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0xefb88e07961a9a0ad304ac0b09ab646684a6d13c"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_manageAddress",
+        "type": "address",
+        "index": 0,
+        "typeShort": "address",
+        "bits": "",
+        "displayName": "&thinsp;<span class=\"punctuation\">_</span>&thinsp;manage Address",
+        "template": "elements_input_address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "item",
+        "type": "address"
+      }
+    ],
+    "name": "NewItem",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "item",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "warehouse",
+        "type": "address"
+      }
+    ],
+    "name": "DigItem",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "item",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "warehouse",
+        "type": "address"
+      }
+    ],
+    "name": "StoreItem",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "warehouse",
+        "type": "address"
+      }
+    ],
+    "name": "NewWarehouse",
+    "type": "event"
+  }
+]

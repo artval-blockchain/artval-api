@@ -1,0 +1,53 @@
+{
+  "appenders": {
+    "everything": {
+      "type": "multiFile",
+      "base": "logs/",
+      "property": "userID",
+      "extension": ".log",
+      "maxLogSize": 10485760,
+      "backups": 3,
+      "compress": true
+    },
+    "normal": {
+      "type": "dateFile",
+      "filename": "logs/access.log",
+      "maxLogSize": 10485760,
+      "numBackups": 5,
+      "compress": true,
+      "encoding": "utf-8"
+    },
+    "api-v1": {
+      "type": "dateFile",
+      "filename": "logs/api-v1.log",
+      "maxLogSize": 1024,
+      "numBackups": 5,
+      "compress": true,
+      "encoding": "utf-8",
+      "tag": ["api-v1"]
+    },
+    "callback": {
+      "type": "dateFile",
+      "filename": "logs/callback.log",
+      "maxLogSize": 1024,
+      "numBackups": 5,
+      "compress": true,
+      "encoding": "utf-8",
+      "tag": ["callback"]
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": ["normal"],
+      "level": "INFO"
+    },
+    "api-v1": {
+      "appenders": ["api-v1"],
+      "level": "DEBUG"
+    },
+    "callback": {
+      "appenders": ["callback"],
+      "level": "DEBUG"
+    }
+  }
+}

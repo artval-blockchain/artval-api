@@ -1,0 +1,530 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_title",
+        "type": "string"
+      },
+      {
+        "name": "_itemhash",
+        "type": "bytes32"
+      },
+      {
+        "name": "_v",
+        "type": "uint8"
+      },
+      {
+        "name": "_ram",
+        "type": "bytes32"
+      },
+      {
+        "name": "_descp",
+        "type": "string"
+      },
+      {
+        "name": "_sURL",
+        "type": "string"
+      },
+      {
+        "name": "_category",
+        "type": "uint8"
+      },
+      {
+        "name": "_days",
+        "type": "uint256"
+      }
+    ],
+    "name": "newItemWithApprsaise",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "peopleAssets",
+    "outputs": [
+      {
+        "name": "peopleAddress",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "numItem",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      },
+      {
+        "name": "_days",
+        "type": "uint256"
+      }
+    ],
+    "name": "newAppraise",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      },
+      {
+        "name": "_wareHouse",
+        "type": "address"
+      }
+    ],
+    "name": "storeItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      }
+    ],
+    "name": "getAppraiseResult",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "artItems",
+    "outputs": [
+      {
+        "name": "itemAddress",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "itemOwner",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "storer",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "state",
+        "type": "uint8",
+        "value": "0"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "value": ""
+      },
+      {
+        "name": "itemHash",
+        "type": "bytes32",
+        "value": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "value": ""
+      },
+      {
+        "name": "sURL",
+        "type": "string",
+        "value": ""
+      },
+      {
+        "name": "endAppTSP",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "category",
+        "type": "uint8",
+        "value": "0"
+      },
+      {
+        "name": "price",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      }
+    ],
+    "name": "acceptAppraiseResult",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "kill",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "appraiserAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x804ef3e0f9d3a90e72f8e5c959cec857effd3988"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "manageAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x2de547c2e7606091bf97a4eabaefd46071acefdf"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0xd58a39a5c7a7efbd1a522ea4276cbf67d031e5e5"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_no",
+        "type": "uint256"
+      }
+    ],
+    "name": "getPeopleItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "numPeople",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      },
+      {
+        "name": "_wareHouse",
+        "type": "address"
+      }
+    ],
+    "name": "checkItemWarehouse",
+    "outputs": [
+      {
+        "name": "flag",
+        "type": "bool",
+        "value": true
+      },
+      {
+        "name": "price",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "itemOwner",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "updateAddress",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      },
+      {
+        "name": "_wareHouse",
+        "type": "address"
+      }
+    ],
+    "name": "setWareHousing",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "repositoryAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x508b24c4c687e2b04e41213bd75e1a0f50413518"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "transferOwnership",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_title",
+        "type": "string"
+      },
+      {
+        "name": "_itemhash",
+        "type": "bytes32"
+      },
+      {
+        "name": "_v",
+        "type": "uint8"
+      },
+      {
+        "name": "_ram",
+        "type": "bytes32"
+      },
+      {
+        "name": "_descp",
+        "type": "string"
+      },
+      {
+        "name": "_sURL",
+        "type": "string"
+      },
+      {
+        "name": "_category",
+        "type": "uint8"
+      }
+    ],
+    "name": "newItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "coinAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0xefb88e07961a9a0ad304ac0b09ab646684a6d13c"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_manageAddress",
+        "type": "address",
+        "index": 0,
+        "typeShort": "address",
+        "bits": "",
+        "displayName": "&thinsp;<span class=\"punctuation\">_</span>&thinsp;manage Address",
+        "template": "elements_input_address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "item",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "name": "owner",
+        "type": "address"
+      }
+    ],
+    "name": "NewItem",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "item",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "TS",
+        "type": "uint256"
+      }
+    ],
+    "name": "ApplyAppraise",
+    "type": "event"
+  }
+]

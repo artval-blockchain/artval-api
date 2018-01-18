@@ -1,0 +1,558 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "artSelections",
+    "outputs": [
+      {
+        "name": "itemAddress",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "numAppraiser",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      },
+      {
+        "name": "_price",
+        "type": "uint256"
+      }
+    ],
+    "name": "priceItem",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "kill",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "warehouseAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x508b24c4c687e2b04e41213bd75e1a0f50413518"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "name": "categoryAppraisers",
+    "outputs": [
+      {
+        "name": "catNO",
+        "type": "uint8",
+        "value": "0"
+      },
+      {
+        "name": "numAppraiser",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "newAppraiser",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_catNs",
+        "type": "uint8[]"
+      }
+    ],
+    "name": "newAppraiserWithCategory",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "name": "categories",
+    "outputs": [
+      {
+        "name": "catNO",
+        "type": "uint8",
+        "value": "0"
+      },
+      {
+        "name": "categoryName",
+        "type": "string",
+        "value": ""
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "manageAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x2de547c2e7606091bf97a4eabaefd46071acefdf"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0xd58a39a5c7a7efbd1a522ea4276cbf67d031e5e5"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "isValidateAccount",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "value": false
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "numAppraiser",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "artPrices",
+    "outputs": [
+      {
+        "name": "itemAddress",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "numAppraiser",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "numPrice",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "totalPrice",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "lastTS",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "artItemsAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0x2ae08f6404005c1df67c18fff151c9bebeaacd9c"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      },
+      {
+        "name": "_catNO",
+        "type": "uint8"
+      },
+      {
+        "name": "numApp",
+        "type": "uint256"
+      },
+      {
+        "name": "_lastTS",
+        "type": "uint256"
+      }
+    ],
+    "name": "newAppRequest",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      }
+    ],
+    "name": "getItemPrice",
+    "outputs": [
+      {
+        "name": "price",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "stat",
+        "type": "uint8",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "appraisers",
+    "outputs": [
+      {
+        "name": "appraiserAddress",
+        "type": "address",
+        "value": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "name": "numAppraise",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "numSelection",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "numBadPrice",
+        "type": "uint256",
+        "value": "0"
+      },
+      {
+        "name": "lastBadPriceTS",
+        "type": "uint256",
+        "value": "0"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_itemAddress",
+        "type": "address"
+      }
+    ],
+    "name": "getItemApp",
+    "outputs": [
+      {
+        "name": "num",
+        "type": "uint256"
+      },
+      {
+        "name": "apps",
+        "type": "address[100]"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "updateAddress",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "_no",
+        "type": "uint8"
+      }
+    ],
+    "name": "getCategoryStatus",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "value": false
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "transferOwnership",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_catN",
+        "type": "uint8"
+      }
+    ],
+    "name": "registerCategory",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "coinAddress",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "value": "0xefb88e07961a9a0ad304ac0b09ab646684a6d13c"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_manageAddress",
+        "type": "address",
+        "index": 0,
+        "typeShort": "address",
+        "bits": "",
+        "displayName": "&thinsp;<span class=\"punctuation\">_</span>&thinsp;manage Address",
+        "template": "elements_input_address",
+        "value": ""
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "item",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "appraiser",
+        "type": "address"
+      }
+    ],
+    "name": "InviteToAppraise",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "item",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "appraiser",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "price",
+        "type": "uint256"
+      }
+    ],
+    "name": "AppraiseItem",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "appraiser",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "categoryNo",
+        "type": "uint8"
+      }
+    ],
+    "name": "RegisterCategory",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "appraiser",
+        "type": "address"
+      }
+    ],
+    "name": "NewAppraiser",
+    "type": "event"
+  }
+]
