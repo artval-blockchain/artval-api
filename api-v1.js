@@ -179,25 +179,6 @@ router.use(function (req, res, next) {
     next();
 });
 
-(function test() {
-// web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
-    let version = web3.version;
-    console.log("version: " + version.api); // "0.2.0"
-
-    let coinbase = web3.eth.coinbase;// "0x2bb662101b06bf3d63c79d39a57603dbeeb17f1a";
-    console.log(coinbase);
-
-    let balance = web3.eth.getBalance(coinbase);
-    console.log("主账号余额：" + balance);
-
-    balance = BigNumber(web3.eth.getBalance(coinbase));
-    console.log("另外形式：" + balance);
-
-    console.log("当前块数：" + web3.eth.blockNumber);
-    // myHello.hello.call();
-    // console.log(myHello.hello.call());
-})();
-
 router.get('/about', function (req, res) {
 //    res.send('I am api version one');
 //    let obj = { success: true, error: 0, msg: 'I am API version 1' };
